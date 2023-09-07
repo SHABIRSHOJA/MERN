@@ -3,7 +3,7 @@
 import Functionalcomponent from './Components/Functionalcomponent';
 import {Classcomponents, Classcomponents1} from './Components/Classcomponent';
 import Click from './Components/Click';
-
+import Counter from './Components/counter';
 function App() {
   return (
   <div>
@@ -13,7 +13,7 @@ function App() {
         <Classcomponents></Classcomponents>
         <Classcomponents1></Classcomponents1>
         <Click></Click>
-        
+        <Counter></Counter>
   </div> 
   );
 }
