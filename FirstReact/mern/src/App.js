@@ -3,7 +3,7 @@
 import Functionalcomponent from './Components/Functionalcomponent';
 import {Classcomponents, Classcomponents1} from './Components/Classcomponent';
 import Click from './Components/Click';
-import Counter from './Components/counter';
+import Counter from './Components/Counter';
 function App() {
   return (
   <div>
