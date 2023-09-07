@@ -1,0 +1,12 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "It is Just for practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
