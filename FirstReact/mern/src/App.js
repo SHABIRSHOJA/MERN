@@ -2,19 +2,23 @@
 //import './App.css';
 
 import React from "react";
-import Classprops from "./Classprops";
+import "./App.css";
 
-import Functionprops from "./Functionalprops";
+import NewCopm from "./Components/NewComp";
 
-class App extends React.Component {
-  render() {
+class App extends React.Component{
+
+  styles={
+      fontstyle : "bold",
+      color : "teal"
+  };
+  render(){
     return (
-      <div>
-        <Classprops name="Learner 1" place="kabul" ><p>This is components</p></Classprops>
-        <Classprops name="Learner 2" place="nengrahar" ><button>click</button></Classprops>
-        <Classprops name="Learner 3" place="mazar"></Classprops>
-        <Functionprops name="Learner 4" place="Wardak"></Functionprops>
-      </div> 
+      <div className="App">
+        <h1 style={this.styles}>Welcom</h1>
+
+        <NewCopm></NewCopm>
+      </div>
     );
   }
 }
