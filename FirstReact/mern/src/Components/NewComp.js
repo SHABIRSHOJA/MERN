@@ -9,7 +9,7 @@ export class NewCopm extends Component{
 
             message: "Subscrip to Elite Barray",
             sub: "Subscribe",
-            imageURL: bellB
+            imageURL: bellA
         }
 
     }
@@ -25,6 +25,13 @@ export class NewCopm extends Component{
             sub: "Subscribe"
         })
     }
+
+    ImageChange=()=>{
+        this.setState({
+            imageURL: bellB,
+            message: "Thank you Happy Learning"
+        })
+    }
     
     render(){
         return(
@@ -33,8 +40,8 @@ export class NewCopm extends Component{
                     <button onClick={this.ButtonChange}>{this.state.sub}</button>
                     <p></p>
 
-                    <image src={this.state.imageURL} alt=""></image>
-
+                    <img style={{width: "40px",height:"40px"}} src={this.state.imageURL}  
+                    onClick={this.ImageChange} alt="" ></img>
                 </div>
         );
     }
