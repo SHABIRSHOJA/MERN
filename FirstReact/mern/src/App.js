@@ -1,24 +1,22 @@
 //import logo from './logo.svg';
 //import './App.css';
-import Functionalcomponent from './Components/Functionalcomponent';
-import {Classcomponents, Classcomponents1} from './Components/Classcomponent';
-import Click from './Components/Click';
-import Counter from './Components/Counter';
-import ParentComp from './Components/ParentComp';
-function App() {
-  return (
-  <div>
-    <h1>Hello and welcome</h1>
-        <h1>This video is about components</h1>
-        <Functionalcomponent></Functionalcomponent>
-        <Classcomponents></Classcomponents>
-        <Classcomponents1></Classcomponents1>
-        <Click></Click>
-        <Counter></Counter>
 
-        <ParentComp></ParentComp>
-  </div> 
-  );
+import React from "react";
+import Classprops from "./Classprops";
+
+import Functionprops from "./Functionalprops";
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Classprops name="Learner 1" place="kabul" ><p>This is components</p></Classprops>
+        <Classprops name="Learner 2" place="nengrahar" ><button>click</button></Classprops>
+        <Classprops name="Learner 3" place="mazar"></Classprops>
+        <Functionprops name="Learner 4" place="Wardak"></Functionprops>
+      </div> 
+    );
+  }
 }
 
 export default App;
