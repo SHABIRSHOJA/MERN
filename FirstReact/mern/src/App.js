@@ -4,6 +4,7 @@ import Functionalcomponent from './Components/Functionalcomponent';
 import {Classcomponents, Classcomponents1} from './Components/Classcomponent';
 import Click from './Components/Click';
 import Counter from './Components/Counter';
+import ParentComp from './Components/ParentComp';
 function App() {
   return (
   <div>
@@ -14,6 +15,8 @@ function App() {
         <Classcomponents1></Classcomponents1>
         <Click></Click>
         <Counter></Counter>
+
+        <ParentComp></ParentComp>
   </div> 
   );
 }
