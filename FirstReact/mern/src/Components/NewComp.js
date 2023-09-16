@@ -9,7 +9,7 @@ export class NewCopm extends Component{
 
             message: "Subscrip to Elite Barray",
             sub: "Subscribe",
-            imageURL: bellA
+            imageURL: bellB
         }
 
     }
