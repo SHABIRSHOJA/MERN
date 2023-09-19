@@ -3,7 +3,6 @@
 
 import React from "react";
 import "./App.css";
-
 import NewCopm from "./Components/NewComp";
 
 class App extends React.Component{
@@ -16,7 +15,6 @@ class App extends React.Component{
     return (
       <div className="App">
         <h1 style={this.styles}>Welcom</h1>
-
         <NewCopm></NewCopm>
       </div>
     );
